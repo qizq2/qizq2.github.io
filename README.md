@@ -1,2 +1,3 @@
 # qizq2.github.io
-qizq2的个人主页
+精英汇静态导航站
+Power By 志强
