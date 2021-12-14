@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li {
-  min-width: 180px;
+  min-width: 100px;
 }
 
 /* Nav Menu Arrows */
@@ -575,7 +575,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 50px;
   text-align: center;
   border: 1px solid #e6e6e6;
-  height: 200px;
+  height: 400px;
   position: relative;
   background: #fafafa;
 }
