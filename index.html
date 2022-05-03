@@ -65,8 +65,43 @@
 				</br>
 				<h2 style="font-size: 2.25rem;">精英汇导航站</h2>
 				<a href="./html/精英汇积分榜	.html" class="btn-get-started">查看积分排行榜</a></br><span style="color: lawngreen;">2022-04-21更新</span></br>
+<!----------------------------- 视频 ----------------------------->
+				<div style="text-align:center;">
+					<!-- <button onclick="playPause()" class="btn-get-started" style="color: black;">播放/暂停</button> -->
+					<button onclick="makeBig()" class="btn-get-started" style="color: black;">放大</button>
+					<button onclick="makeNormal()" class="btn-get-started" style="color: black;">正常</button>
+					<br /> 
+					<video id="video1" width="600" style="margin-top:15px;" controls>
+						<source src="https://cdn.qiniu.qizhiqiang.com/%7Buser%7D/g0PSXzjm_2022-05-03-beta1.mp4" type="video/mp4" />
+					</video>
+					</br>
+					<span style="color: lawngreen;">视频更新日期：2022-05-03</span>
+				</div> 	
+				<script type="text/javascript">
+				var myVideo=document.getElementById("video1");
+				$('#video1').bind('contextmenu',function() { return false; });
+				function playPause()
+				{ 
+					if (myVideo.paused) 
+					myVideo.play(); 
+					else 
+					myVideo.pause(); 
+				} 
+					
+				function makeBig()
+				{ 
+					myVideo.width=1000; 
+					}
+				function makeNormal()
+				{
+					myVideo.width=600; 
+					}
+					</script>
+				
 			</div>
+			
 		</section>
+		
 		<!----------------------------- 快速链接 ----------------------------->
 		<main id="main">
 			<section id="services">
